@@ -173,7 +173,7 @@ return lush(function()
         TSPunctSpecial {Delimiter},
         -- TSRepeat {},
         -- TSString {},
-        -- TSStringRegex {},
+        TSStringRegex {fg = t.darkCyan},
         TSStringEscape {fg = t.darkCyan},
         TSSymbol {Identifier},
         -- TSType {},
