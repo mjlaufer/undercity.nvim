@@ -38,8 +38,8 @@ return lush(function()
         -- Cursor {},
         -- lCursor {},
         -- CursorIM {},
-        -- CursorColumn {ColorColumn}, -- Screen-column at the cursor, when 'cursorcolumn' is set
-        -- CursorLine {ColorColumn}, -- Screen-line at the cursor, when 'cursorline' is set
+        -- CursorColumn {ColorColumn},
+        CursorLine {bg = t.bg1},
         Normal {fg = t.fg1, bg = t.bg1}, -- Normal text
         NormalFloat {bg = t.bg2}, -- Normal text in floating windows
         -- NormalNC {},
@@ -47,7 +47,7 @@ return lush(function()
         -- TermCursorNC {},
         VertSplit {fg = t.bg3},
         LineNr {fg = t.bg3},
-        -- CursorLineNr {fg = t.orange},
+        CursorLineNr {fg = t.orange},
         Folded {fg = t.darkGreen, bg = t.bg2},
         FoldColumn {LineNr},
         SignColumn {LineNr},
@@ -63,8 +63,8 @@ return lush(function()
         TabLineSel {StatusLine},
         MatchParen {fg = t.yellow, bg = t.bg3},
         Substitute {fg = t.bg1, bg = t.yellow},
-        -- Search {fg = t.bg1, bg = t.darkYellow}, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
-        IncSearch {fg = t.bg1, bg = t.yellow}, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+        Search {fg = t.bg1, bg = t.yellow},
+        IncSearch {fg = t.bg1, bg = t.yellow},
         Visual {bg = t.bg2},
         -- VisualNOS {},
         Conceal {fg = t.fg2},
