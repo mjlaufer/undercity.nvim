@@ -51,8 +51,8 @@ return lush(function()
         Folded {fg = t.darkGreen, bg = t.bg2},
         FoldColumn {LineNr},
         SignColumn {LineNr},
-        Pmenu {NormalFloat},
-        PmenuSel {bg = t.bg2},
+        Pmenu {bg = t.bg2},
+        PmenuSel {bg = t.bg3},
         PmenuSbar {Pmenu},
         PmenuThumb {PmenuSel},
         StatusLine {NormalFloat},
@@ -86,7 +86,7 @@ return lush(function()
         DiffAdd {bg = hsluv(130, 50, 20)}, -- green
         DiffChange {bg = hsluv(255, 50, 20)}, -- blue
         DiffDelete {bg = hsluv(355, 50, 20)}, -- red
-        DiffText {bg = hsluv(190, 50, 20)}, -- cyan
+        DiffText {bg = hsluv(255, 50, 30)},
         DiffAdded {DiffAdd},
         DiffRemoved {DiffDelete},
 
