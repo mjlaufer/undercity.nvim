@@ -84,9 +84,9 @@ return lush(function()
 
         ---- :help :diff -------------------------------------------
         DiffAdd {bg = hsluv(130, 50, 20)}, -- green
-        DiffChange {bg = hsluv(190, 50, 20)}, -- cyan
-        DiffDelete {bg = hsluv(255, 50, 20)}, -- red
-        DiffText {bg = hsluv(62, 50, 20)}, -- yellow
+        DiffChange {bg = hsluv(255, 50, 20)}, -- blue
+        DiffDelete {bg = hsluv(355, 50, 20)}, -- red
+        DiffText {bg = hsluv(190, 50, 20)}, -- cyan
         DiffAdded {DiffAdd},
         DiffRemoved {DiffDelete},
 
@@ -256,13 +256,10 @@ return lush(function()
         -- LspDiagnosticsSignHint {},
 
         ---- :h gitsigns (external plugin) -------------------------
-        GitSignsAdd {fg = t.bg1, bg = t.darkGreen, gui = 'reverse'},
-        GitSignsChange {fg = t.bg1, bg = t.darkCyan, gui = 'reverse'},
-        GitSignsDelete {fg = t.bg1, bg = t.darkRed, gui = 'reverse'},
-        GitSignsCurrentLineBlame {fg = t.bg1, bg = t.darkBlue, gui = 'reverse'},
-        SignifySignAdd {GitSignsAdd},
-        SignifySignChange {GitSignsChange},
-        SignifySignDelete {GitSignsDelete},
+        GitSignsAdd {fg = t.darkGreen},
+        GitSignsChange {fg = t.darkBlue},
+        GitSignsDelete {fg = t.darkRed},
+        GitSignsCurrentLineBlame {fg = '#595959'}, -- dark gray
 
         ---- :h nvim-tree (external plugin) ------------------------
         NvimTreeRootFolder {fg = t.orange},
