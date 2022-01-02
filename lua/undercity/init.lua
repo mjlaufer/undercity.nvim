@@ -1,34 +1,11 @@
 local lush = require('lush')
-local hsluv = lush.hsluv
+local hsluv = require('undercity.hsluv').to_hex
+local t = require('undercity.colors')
 
-local t = {
-    bg1 = hsluv(50, 20, 12),
-    bg2 = hsluv(50, 20, 20),
-    bg3 = hsluv(50, 20, 30),
-    fg1 = hsluv(50, 30, 85),
-    fg2 = hsluv(50, 30, 70),
-    red = hsluv(355, 50, 55),
-    orange = hsluv(40, 75, 65),
-    yellow = hsluv(62, 70, 80),
-    green = hsluv(130, 40, 80),
-    cyan = hsluv(190, 40, 70),
-    blue = hsluv(255, 40, 70),
-    magenta = hsluv(310, 50, 70),
-    darkRed = hsluv(355, 60, 30),
-    darkYellow = hsluv(62, 70, 50),
-    darkGreen = hsluv(130, 30, 50),
-    darkCyan = hsluv(190, 30, 50),
-    darkBlue = hsluv(255, 30, 50),
-}
-
--- Font variants: This only works when loading this file directly, not when loading with `:colorscheme`
-local bold, italic, underline, undercurl;
-if vim.g.melange_enable_font_variants ~= 0 then
-    bold = 'bold'
-    italic = 'italic'
-    underline = 'underline'
-    undercurl = 'undercurl'
-end
+local bold = 'bold'
+local italic = 'italic'
+local underline = 'underline'
+local undercurl = 'undercurl'
 
 ---@diagnostic disable: undefined-global
 return lush(function()
