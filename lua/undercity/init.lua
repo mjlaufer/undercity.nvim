@@ -40,9 +40,9 @@ return lush(function()
         TabLineSel {StatusLine},
         MatchParen {fg = t.yellow, bg = t.bg3},
         Substitute {fg = t.bg1, bg = t.yellow},
-        Search {fg = t.bg1, bg = t.yellow},
-        IncSearch {fg = t.bg1, bg = t.yellow},
-        Visual {bg = t.bg2},
+        Search {bg = t.bg3},
+        IncSearch {Search},
+        Visual {bg = t.bg3},
         -- VisualNOS {},
         Conceal {fg = t.fg2},
         Whitespace {fg = t.bg3},
@@ -241,6 +241,7 @@ return lush(function()
         ---- :h nvim-tree (external plugin) ------------------------
         NvimTreeRootFolder {fg = t.orange},
         NvimTreeOpenedFile {fg = t.yellow},
+        NvimTreeWindowPicker {fg = t.bg1, bg = t.orange},
     }
 end)
 
