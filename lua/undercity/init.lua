@@ -68,10 +68,10 @@ return lush(function()
         DiffRemoved {DiffDelete},
 
         ---- :help spell -------------------------------------------
-        SpellBad {fg = t.red, gui = undercurl},
-        SpellCap {fg = t.blue, gui = undercurl},
-        SpellLocal {fg = t.orange, gui = undercurl},
-        SpellRare {fg = t.yellow, gui = undercurl},
+        SpellBad {sp = t.red, gui = undercurl},
+        SpellCap {sp = t.blue, gui = undercurl},
+        SpellLocal {sp = t.orange, gui = undercurl},
+        SpellRare {sp = t.yellow, gui = undercurl},
 
         ---- :help group-name --------------------------------------
         Comment {fg = t.darkGreen},
@@ -187,10 +187,10 @@ return lush(function()
         -- DiagnosticVirtualTextInfo {DiagnosticInfo},
         -- DiagnosticVirtualTextHint {DiagnosticHint},
 
-        DiagnosticUnderlineError {gui = undercurl},
-        DiagnosticUnderlineWarn {gui = undercurl},
-        DiagnosticUnderlineInfo {gui = undercurl},
-        DiagnosticUnderlineHint {gui = undercurl},
+        DiagnosticUnderlineError {gui = undercurl, sp = t.red},
+        DiagnosticUnderlineWarn {gui = undercurl, sp = t.yellow},
+        DiagnosticUnderlineInfo {gui = undercurl, sp = t.blue},
+        DiagnosticUnderlineHint {gui = undercurl, sp = t.cyan},
 
         -- DiagnosticFloatingError {DiagnosticError},
         -- DiagnosticFloatingWarn {DiagnosticWarn},
