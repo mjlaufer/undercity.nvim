@@ -1,19 +1,19 @@
-local t = require('undercity.colors')
+local c = require('undercity.colors')
 
 return {
     normal = {
-        a = {bg = t.orange, fg = t.bg1, gui = 'bold'},
-        b = {bg = t.bg1, fg = t.orange},
-        c = {bg = t.bg2, fg = t.fg2},
+        a = {bg = c.orange, fg = c.bg1, gui = 'bold'},
+        b = {bg = c.bg1, fg = c.orange},
+        c = {bg = c.bg2, fg = c.fg2},
     },
-    insert = {a = {bg = t.yellow, fg = t.bg1, gui = 'bold'}, b = {bg = t.bg1, fg = t.yellow}},
-    visual = {a = {bg = t.blue, fg = t.bg1, gui = 'bold'}, b = {bg = t.bg1, fg = t.blue}},
-    replace = {a = {bg = t.magenta, fg = t.bg1, gui = 'bold'}, b = {bg = t.bg1, fg = t.magenta}},
-    command = {a = {bg = t.cyan, fg = t.bg1, gui = 'bold'}, b = {bg = t.bg1, fg = t.cyan}},
-    terminal = {a = {bg = t.green, fg = t.bg1, gui = 'bold'}, b = {bg = t.bg1, fg = t.green}},
+    insert = {a = {bg = c.yellow, fg = c.bg1, gui = 'bold'}, b = {bg = c.bg1, fg = c.yellow}},
+    visual = {a = {bg = c.blue, fg = c.bg1, gui = 'bold'}, b = {bg = c.bg1, fg = c.blue}},
+    replace = {a = {bg = c.magenta, fg = c.bg1, gui = 'bold'}, b = {bg = c.bg1, fg = c.magenta}},
+    command = {a = {bg = c.cyan, fg = c.bg1, gui = 'bold'}, b = {bg = c.bg1, fg = c.cyan}},
+    terminal = {a = {bg = c.green, fg = c.bg1, gui = 'bold'}, b = {bg = c.bg1, fg = c.green}},
     inactive = {
-        a = {bg = t.bg2, fg = t.red, gui = 'bold'},
-        b = {bg = t.bg1, fg = t.red},
-        c = {bg = t.bg2, fg = t.fg2},
+        a = {bg = c.bg2, fg = c.red, gui = 'bold'},
+        b = {bg = c.bg1, fg = c.red},
+        c = {bg = c.bg2, fg = c.fg2},
     },
 }

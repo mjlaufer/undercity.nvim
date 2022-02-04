@@ -1,4 +1,4 @@
-local lib = require('undercity.lib')
+local lib = require('undercity.hsluv_lib')
 
 local M = {
     to_hex = function(h, s, l)
