@@ -229,6 +229,20 @@ return {
     -- LspDiagnosticsSignInformation = {},
     -- LspDiagnosticsSignHint = {},
 
+    ---- :h telescope (external plugin) ------------------------
+    TelescopeBorder = {fg = c.bg3, bg = c.bg1},
+    TelescopeNormal = {bg = c.bg1},
+    TelescopePromptBorder = {fg = c.bg3, bg = c.bg1},
+    TelescopePromptNormal = {fg = c.fg1},
+    TelescopePromptPrefix = {fg = c.fg1},
+    TelescopePromptCounter = {fg = c.fg2},
+    TelescopePromptTitle = {fg = c.fg2},
+    TelescopePreviewBorder = {fg = c.bg3, bg = c.bg1},
+    TelescopePreviewNormal = {bg = c.bg1},
+    TelescopePreviewTitle = {fg = c.fg2},
+    TelescopeResultsTitle = {fg = c.fg2},
+    TelescopeSelection = {bg = c.bg3},
+
     ---- :h gitsigns (external plugin) -------------------------
     GitSignsAdd = {fg = c.darkGreen},
     GitSignsChange = {fg = c.darkBlue},
