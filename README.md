@@ -2,6 +2,8 @@
 
 Undercity is a dark theme for Neovim with warm colors and moderately high contrast.
 
+![undercity-screenshot](https://user-images.githubusercontent.com/24204252/152629736-6ba480e2-a2b0-4204-a1d6-92ceaa6d92eb.png)
+
 This project includes themes for [lualine](https://github.com/nvim-lualine/lualine.nvim) and [Kitty](https://sw.kovidgoyal.net/kitty/).
 
 Supported plugins:
@@ -29,4 +31,4 @@ colorscheme undercity
 
 ## Credits
 
-This project began as a fork of [Melange](https://github.com/savq/melange).
+This project began as a fork of [melange](https://github.com/savq/melange).
