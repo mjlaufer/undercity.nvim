@@ -253,4 +253,21 @@ return {
     NvimTreeRootFolder = {fg = c.orange},
     NvimTreeOpenedFile = {fg = c.yellow},
     NvimTreeWindowPicker = {fg = c.bg1, bg = c.orange},
+
+    ---- nvim-dap-ui (external plugin) -------------------------
+    DapUIScope = {fg = c.cyan},
+    DapUIType = {fg = c.magenta},
+    DapUIModifiedValue = {fg = c.cyan, style = bold},
+    DapUIDecoration = {fg = c.cyan},
+    DapUIThread = {fg = c.green},
+    DapUIStoppedThread = {fg = c.cyan},
+    DapUISource = {fg = c.magenta},
+    DapUILineNumber = {fg = c.orange},
+    DapUIFloatBorder = {fg = c.bg3},
+    DapUIWatchesEmpty = {fg = c.red},
+    DapUIWatchesValue = {fg = c.green},
+    DapUIWatchesError = {fg = c.red},
+    DapUIBreakpointsPath = {fg = c.cyan},
+    DapUIBreakpointsInfo = {fg = c.blue},
+    DapUIBreakpointsCurrentLine = {fg = c.yellow, style = bold},
 }
