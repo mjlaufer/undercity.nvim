@@ -48,24 +48,24 @@ return {
     SpecialKey = {fg = c.bg3},
     Directory = {fg = c.cyan},
     Title = {fg = c.orange},
-    ErrorMsg = {bg = c.red},
+    ErrorMsg = {bg = c.darkRed},
     ModeMsg = {fg = c.fg2},
     -- MsgArea = {},
     -- MsgSeparator = {},
     MoreMsg = {fg = c.green},
-    WarningMsg = {fg = c.red},
+    WarningMsg = {fg = c.darkRed},
     Question = {fg = c.green},
 
     ---- :help :diff -------------------------------------------
     DiffAdd = {bg = hsluv(130, 50, 20)}, -- green
     DiffChange = {bg = hsluv(255, 50, 20)}, -- blue
-    DiffDelete = {bg = hsluv(355, 50, 20)}, -- red
+    DiffDelete = {bg = hsluv(12, 60, 15)}, -- red
     DiffText = {bg = hsluv(255, 50, 30)},
     DiffAdded = {bg = hsluv(130, 50, 20)},
-    DiffRemoved = {bg = hsluv(355, 50, 20)},
+    DiffRemoved = {bg = hsluv(12, 60, 15)},
 
     ---- :help spell -------------------------------------------
-    SpellBad = {sp = c.red, style = undercurl},
+    SpellBad = {sp = c.darkRed, style = undercurl},
     SpellCap = {sp = c.blue, style = undercurl},
     SpellLocal = {sp = c.orange, style = undercurl},
     SpellRare = {sp = c.yellow, style = undercurl},
@@ -142,7 +142,7 @@ return {
     TSParameter = {fg = c.blue},
     TSParameterReference = {fg = c.blue},
     -- TSProperty = {},
-    TSPunctDelimiter = {fg = c.red},
+    TSPunctDelimiter = {fg = c.darkRed},
     TSPunctBracket = {fg = c.darkYellow},
     TSPunctSpecial = {fg = c.darkYellow},
     -- TSRepeat = {},
@@ -174,40 +174,40 @@ return {
     -- TSDanger = {},
 
     ---- :help diagnostic-highlight ----------------------------
-    DiagnosticError = {fg = c.red},
-    DiagnosticWarn = {fg = c.yellow},
-    DiagnosticInfo = {fg = c.blue},
-    DiagnosticHint = {fg = c.cyan},
+    DiagnosticError = {fg = c.darkRed},
+    DiagnosticWarn = {fg = c.darkYellow},
+    DiagnosticInfo = {fg = c.darkBlue},
+    DiagnosticHint = {fg = c.darkCyan},
 
-    -- DiagnosticVirtualTextError = {fg = c.red},
-    -- DiagnosticVirtualTextWarn = {fg = c.yellow},
-    -- DiagnosticVirtualTextInfo = {fg = c.blue},
-    -- DiagnosticVirtualTextHint = {fg = c.cyan},
+    -- DiagnosticVirtualTextError = {},
+    -- DiagnosticVirtualTextWarn = {},
+    -- DiagnosticVirtualTextInfo = {},
+    -- DiagnosticVirtualTextHint = {},
 
-    DiagnosticUnderlineError = {style = undercurl, sp = c.red},
-    DiagnosticUnderlineWarn = {style = undercurl, sp = c.yellow},
-    DiagnosticUnderlineInfo = {style = undercurl, sp = c.blue},
-    DiagnosticUnderlineHint = {style = undercurl, sp = c.cyan},
+    DiagnosticUnderlineError = {style = undercurl, sp = c.darkRed},
+    DiagnosticUnderlineWarn = {style = undercurl, sp = c.darkYellow},
+    DiagnosticUnderlineInfo = {style = undercurl, sp = c.darkBlue},
+    DiagnosticUnderlineHint = {style = undercurl, sp = c.darkCyan},
 
-    -- DiagnosticFloatingError = {fg = c.red},
-    -- DiagnosticFloatingWarn = {fg = c.yellow},
-    -- DiagnosticFloatingInfo = {fg = c.blue},
-    -- DiagnosticFloatingHint = {fg = c.cyan},
+    -- DiagnosticFloatingError = {},
+    -- DiagnosticFloatingWarn = {},
+    -- DiagnosticFloatingInfo = {},
+    -- DiagnosticFloatingHint = {},
 
-    -- DiagnosticSignError = {fg = c.red},
-    -- DiagnosticSignWarn = {fg = c.yellow},
-    -- DiagnosticSignInfo = {fg = c.blue},
-    -- DiagnosticSignHint = {fg = c.cyan},
+    -- DiagnosticSignError = {},
+    -- DiagnosticSignWarn = {},
+    -- DiagnosticSignInfo = {},
+    -- DiagnosticSignHint = {},
 
     ---- :help lsp-highlight -----------------------------------
     LspReferenceText = {bg = c.bg3},
     LspReferenceRead = {bg = c.bg3},
     LspReferenceWrite = {bg = c.bg3},
 
-    LspDiagnosticsDefaultError = {fg = c.red},
-    LspDiagnosticsDefaultWarning = {fg = c.yellow},
-    LspDiagnosticsDefaultInformation = {fg = c.blue},
-    LspDiagnosticsDefaultHint = {fg = c.cyan},
+    LspDiagnosticsDefaultError = {fg = c.darkRed},
+    LspDiagnosticsDefaultWarning = {fg = c.darkYellow},
+    LspDiagnosticsDefaultInformation = {fg = c.darkBlue},
+    LspDiagnosticsDefaultHint = {fg = c.darkCyan},
 
     -- LspDiagnosticsVirtualTextError = {},
     -- LspDiagnosticsVirtualTextWarning = {},
