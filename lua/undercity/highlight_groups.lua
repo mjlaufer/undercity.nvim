@@ -155,7 +155,7 @@ return {
     TSVariable = {fg = c.fg1},
     TSVariableBuiltin = {fg = c.fg1},
     TSTag = {fg = c.orange},
-    TSTagAttribute = {fg = c.green},
+    TSTagAttribute = {fg = c.blue},
     -- TSTagDelimiter = {},
     -- TSText = {},
     TSStrong = {style = bold},
