@@ -253,8 +253,10 @@ return {
     NvimTreeRootFolder = {fg = c.orange},
     NvimTreeFolderName = {fg = c.blue},
     NvimTreeOpenedFolderName = {fg = c.green},
-    NvimTreeOpenedFile = {fg = c.green},
+    NvimTreeExecFile = {fg = c.yellow},
     NvimTreeSpecialFile = {fg = c.magenta},
+    NvimTreeGitDirty = {fg = c.red},
+    NvimTreeGitStaged = {fg = c.green},
     NvimTreeWindowPicker = {fg = c.bg1, bg = c.orange},
 
     ---- nvim-dap-ui (external plugin) -------------------------
