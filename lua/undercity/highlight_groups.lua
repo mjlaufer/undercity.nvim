@@ -135,7 +135,7 @@ return {
     TSKeywordReturn = {fg = c.green},
     -- TSLabel = {},
     -- TSMethod = {},
-    TSNamespace = {fg = c.green},
+    TSNamespace = {fg = c.fg1},
     -- TSNone = {},
     -- TSNumber = {},
     TSOperator = {fg = c.red},
