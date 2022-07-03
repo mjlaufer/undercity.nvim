@@ -275,4 +275,8 @@ return {
     DapUIBreakpointsPath = {fg = c.cyan},
     DapUIBreakpointsInfo = {fg = c.blue},
     DapUIBreakpointsCurrentLine = {fg = c.yellow, style = bold},
+
+    ---- :h sneak (external plugin) ----------------------------
+    Sneak = {fg = c.bg1, bg = c.yellow},
+    SneakScope = {bg = c.bg3},
 }
