@@ -277,6 +277,6 @@ return {
     DapUIBreakpointsCurrentLine = {fg = c.yellow, style = bold},
 
     ---- :h sneak (external plugin) ----------------------------
-    Sneak = {fg = c.bg1, bg = c.yellow},
+    Sneak = {fg = c.bg1, bg = c.magenta},
     SneakScope = {bg = c.bg3},
 }
