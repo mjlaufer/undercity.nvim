@@ -20,7 +20,7 @@ return {
     -- TermCursor = {},
     -- TermCursorNC = {},
     VertSplit = {fg = c.bg3},
-    LineNr = {fg = c.bg3},
+    LineNr = {fg = c.fg3},
     CursorLineNr = {fg = c.orange},
     Folded = {fg = c.darkGreen, bg = c.bg2},
     FoldColumn = {fg = c.bg3},
@@ -230,24 +230,24 @@ return {
     -- LspDiagnosticsSignHint = {},
 
     ---- :h telescope (external plugin) ------------------------
-    TelescopeBorder = {fg = c.bg3, bg = c.bg1},
+    TelescopeResultsTitle = {fg = c.bg1, bg = c.blue},
+    TelescopeBorder = {fg = c.darkBlue, bg = c.bg1},
     TelescopeNormal = {bg = c.bg1},
-    TelescopePromptBorder = {fg = c.bg3, bg = c.bg1},
+    TelescopePromptTitle = {fg = c.bg1, bg = c.cyan},
+    TelescopePromptBorder = {fg = c.darkCyan, bg = c.bg1},
+    TelescopePromptCounter = {fg = c.darkCyan},
     TelescopePromptNormal = {fg = c.fg1},
     TelescopePromptPrefix = {fg = c.fg1},
-    TelescopePromptCounter = {fg = c.fg2},
-    TelescopePromptTitle = {fg = c.fg2},
-    TelescopePreviewBorder = {fg = c.bg3, bg = c.bg1},
+    TelescopePreviewTitle = {fg = c.bg1, bg = c.magenta},
+    TelescopePreviewBorder = {fg = c.darkMagenta, bg = c.bg1},
     TelescopePreviewNormal = {bg = c.bg1},
-    TelescopePreviewTitle = {fg = c.fg2},
-    TelescopeResultsTitle = {fg = c.fg2},
     TelescopeSelection = {bg = c.bg3},
 
     ---- :h gitsigns (external plugin) -------------------------
     GitSignsAdd = {fg = c.darkGreen},
     GitSignsChange = {fg = c.darkBlue},
     GitSignsDelete = {fg = c.darkRed},
-    GitSignsCurrentLineBlame = {fg = '#595959'}, -- dark gray
+    GitSignsCurrentLineBlame = {fg = c.fg3},
 
     ---- :h nvim-tree (external plugin) ------------------------
     NvimTreeRootFolder = {fg = c.orange},
@@ -255,9 +255,29 @@ return {
     NvimTreeOpenedFolderName = {fg = c.green},
     NvimTreeExecFile = {fg = c.yellow},
     NvimTreeSpecialFile = {fg = c.magenta},
-    NvimTreeGitDirty = {fg = c.red},
+    NvimTreeGitDirty = {fg = c.darkRed},
     NvimTreeGitStaged = {fg = c.green},
     NvimTreeWindowPicker = {fg = c.bg1, bg = c.orange},
+
+    ---- nvim-cmp (external plugin) ----------------------------
+    FloatBorder = {fg = c.darkYellow, bg = c.bg1},
+    CmpItemAbbrMatch = {fg = c.green},
+    CmpItemAbbrMatchFuzzy = {fg = c.cyan},
+    CmpItemKindMenu = {fg = c.darkGreen},
+    CmpItemKindText = {fg = c.fg2},
+    CmpItemKindKeyword = {fg = c.orange},
+    CmpItemKindVariable = {fg = c.fg1},
+    CmpItemKindValue = {fg = c.cyan},
+    CmpItemKindConstant = {fg = c.magenta},
+    CmpItemKindOperator = {fg = c.red},
+    CmpItemKindFunction = {fg = c.yellow},
+    CmpItemKindMethod = {fg = c.yellow},
+    CmpItemKindReference = {fg = c.blue},
+    CmpItemKindClass = {fg = c.darkBlue},
+    CmpItemKindInterface = {fg = c.darkBlue},
+    CmpItemKindStruct = {fg = c.darkBlue},
+    CmpItemKindFolder = {fg = c.cyan},
+    CmpItemKindFile = {fg = c.cyan},
 
     ---- nvim-dap-ui (external plugin) -------------------------
     DapUIScope = {fg = c.cyan},

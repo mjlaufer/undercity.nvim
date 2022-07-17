@@ -13,10 +13,11 @@ Supported plugins:
 -   [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 -   [lualine](https://github.com/nvim-lualine/lualine.nvim)
 -   [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+-   [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 -   [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 -   [vim-sneak](https://github.com/justinmk/vim-sneak)
 
-Disclaimer: Undercity has only been tested with NVIM v0.6.1.
+Disclaimer: Undercity has only been tested with NVIM v0.6 and higher.
 
 ## Installation
 

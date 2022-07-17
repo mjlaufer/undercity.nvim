@@ -2,10 +2,11 @@ local hsluv = require('undercity.hsluv').to_hex
 
 return {
     bg1 = hsluv(50, 20, 12),
-    bg2 = hsluv(50, 20, 20),
-    bg3 = hsluv(50, 20, 30),
+    bg2 = hsluv(50, 20, 18),
+    bg3 = hsluv(50, 20, 28),
     fg1 = hsluv(50, 30, 82),
     fg2 = hsluv(50, 30, 70),
+    fg3 = hsluv(50, 24, 40),
     red = hsluv(12, 80, 60),
     orange = hsluv(40, 75, 65),
     yellow = hsluv(62, 72, 78),
@@ -18,5 +19,5 @@ return {
     darkGreen = hsluv(130, 30, 50),
     darkCyan = hsluv(190, 30, 50),
     darkBlue = hsluv(255, 30, 50),
+    darkMagenta = hsluv(310, 30, 50),
 }
-
