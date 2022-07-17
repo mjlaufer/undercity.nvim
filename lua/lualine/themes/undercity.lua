@@ -12,8 +12,8 @@ return {
     command = {a = {bg = c.cyan, fg = c.bg1, gui = 'bold'}, b = {bg = c.bg1, fg = c.cyan}},
     terminal = {a = {bg = c.green, fg = c.bg1, gui = 'bold'}, b = {bg = c.bg1, fg = c.green}},
     inactive = {
-        a = {bg = c.bg2, fg = c.red, gui = 'bold'},
-        b = {bg = c.bg1, fg = c.red},
+        a = {bg = c.bg2, fg = c.fg3},
+        b = {bg = c.bg1, fg = c.fg3},
         c = {bg = c.bg2, fg = c.fg2},
     },
 }
