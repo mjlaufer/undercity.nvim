@@ -15,7 +15,8 @@ return {
     -- CursorColumn = {},
     CursorLine = {bg = c.bg1},
     Normal = {fg = c.fg1, bg = c.bg1}, -- Normal text
-    NormalFloat = {bg = c.bg2}, -- Normal text in floating windows
+    NormalFloat = {bg = c.bg1}, -- Normal text in floating windows
+    FloatBorder = {fg = c.darkYellow, bg = c.bg1},
     -- NormalNC = {},
     -- TermCursor = {},
     -- TermCursorNC = {},
@@ -153,7 +154,7 @@ return {
     -- TSType = {},
     -- TSTypeBuiltin = {},
     TSVariable = {fg = c.fg1},
-    TSVariableBuiltin = {fg = c.fg1},
+    TSVariableBuiltin = {fg = c.red},
     TSTag = {fg = c.orange},
     TSTagAttribute = {fg = c.blue},
     -- TSTagDelimiter = {},
@@ -260,7 +261,6 @@ return {
     NvimTreeWindowPicker = {fg = c.bg1, bg = c.orange},
 
     ---- nvim-cmp (external plugin) ----------------------------
-    FloatBorder = {fg = c.darkYellow, bg = c.bg1},
     CmpItemAbbrMatch = {fg = c.green},
     CmpItemAbbrMatchFuzzy = {fg = c.cyan},
     CmpItemKindMenu = {fg = c.darkGreen},
@@ -278,6 +278,24 @@ return {
     CmpItemKindStruct = {fg = c.darkBlue},
     CmpItemKindFolder = {fg = c.cyan},
     CmpItemKindFile = {fg = c.cyan},
+
+    ---- neotest (external plugin) -----------------------------
+    NeotestAdapterName = {fg = c.orange},
+    NeotestDir = {fg = c.blue},
+    NeotestRunning = {fg = c.darkYellow},
+    NeotestPassed = {fg = c.green},
+    NeotestFailed = {fg = c.red},
+    NeotestSkipped = {fg = c.yellow},
+    NeotestTest = {fg = c.fg1},
+    NeotestFile = {fg = c.fg1},
+    NeotestNamespace = {fg = c.magenta},
+    NeotestFocused = {fg = c.yellow},
+    NeotestIndent = {fg = c.fg3},
+    NeotestMarked = {fg = c.darkBlue},
+    NeotestWinSelect = {fg = c.cyan},
+    NeotestTarget = {fg = c.red},
+    NeotestUnknown = {fg = c.fg2},
+    NeotestExpandMarker = {fg = c.fg3},
 
     ---- nvim-dap-ui (external plugin) -------------------------
     DapUIScope = {fg = c.cyan},
