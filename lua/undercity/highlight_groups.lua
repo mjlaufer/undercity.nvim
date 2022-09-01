@@ -15,7 +15,7 @@ return {
     -- CursorColumn = {},
     CursorLine = {bg = c.bg1},
     Normal = {fg = c.fg1, bg = c.bg1}, -- Normal text
-    NormalFloat = {bg = c.bg1}, -- Normal text in floating windows
+    NormalFloat = {bg = c.bg2}, -- Normal text in floating windows
     FloatBorder = {fg = c.darkYellow, bg = c.bg1},
     -- NormalNC = {},
     -- TermCursor = {},
@@ -75,7 +75,7 @@ return {
     Comment = {fg = c.darkGreen},
     Identifier = {fg = c.fg1}, -- (preferred) any variable name
     Function = {fg = c.yellow},
-    Constant = {fg = c.magenta},
+    Constant = {fg = c.blue},
     String = {fg = c.cyan},
     Character = {fg = c.cyan},
     Number = {fg = c.magenta},
@@ -90,12 +90,12 @@ return {
     Exception = {fg = c.orange}, -- try, catch, throw
 
     PreProc = {fg = c.green}, -- (preferred) generic Preprocessor
-    -- Include = {},
+    Include = {fg = c.orange}, -- import...from
     -- Define = {},
     -- Macro = {},
     -- PreCondit = {},
 
-    Type = {fg = c.darkBlue},
+    Type = {fg = c.darkCyan},
     -- StorageClass = {},
     -- Structure = {},
     -- Typedef = {},
@@ -121,7 +121,7 @@ return {
     -- TSConditional = {},
     -- TSConstant = {},
     TSConstBuiltin = {fg = c.magenta},
-    TSConstMacro = {fg = c.magenta},
+    TSConstMacro = {fg = c.blue},
     -- TSConstructor = {},
     -- TSError = {style = undercurl}'
     -- TSException = {},
@@ -140,8 +140,8 @@ return {
     -- TSNone = {},
     -- TSNumber = {},
     TSOperator = {fg = c.red},
-    TSParameter = {fg = c.blue},
-    TSParameterReference = {fg = c.blue},
+    TSParameter = {fg = c.fg1},
+    TSParameterReference = {fg = c.fg1},
     -- TSProperty = {},
     TSPunctDelimiter = {fg = c.darkRed},
     TSPunctBracket = {fg = c.darkYellow},
@@ -154,7 +154,7 @@ return {
     -- TSType = {},
     -- TSTypeBuiltin = {},
     TSVariable = {fg = c.fg1},
-    TSVariableBuiltin = {fg = c.red},
+    TSVariableBuiltin = {fg = c.blue},
     TSTag = {fg = c.orange},
     TSTagAttribute = {fg = c.blue},
     -- TSTagDelimiter = {},
