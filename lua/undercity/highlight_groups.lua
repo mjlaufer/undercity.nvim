@@ -260,24 +260,24 @@ return {
     NvimTreeGitStaged = {fg = c.green},
     NvimTreeWindowPicker = {fg = c.bg1, bg = c.orange},
 
-    ---- nvim-cmp (external plugin) ----------------------------
+    ---- :h nvim-cmp (external plugin) -------------------------
     CmpItemAbbrMatch = {fg = c.green},
-    CmpItemAbbrMatchFuzzy = {fg = c.cyan},
+    CmpItemAbbrMatchFuzzy = {fg = c.green},
     CmpItemKindMenu = {fg = c.darkGreen},
     CmpItemKindText = {fg = c.fg2},
     CmpItemKindKeyword = {fg = c.orange},
     CmpItemKindVariable = {fg = c.fg1},
-    CmpItemKindValue = {fg = c.cyan},
-    CmpItemKindConstant = {fg = c.magenta},
+    CmpItemKindValue = {fg = c.magenta},
+    CmpItemKindConstant = {fg = c.blue},
     CmpItemKindOperator = {fg = c.red},
     CmpItemKindFunction = {fg = c.yellow},
     CmpItemKindMethod = {fg = c.yellow},
     CmpItemKindReference = {fg = c.blue},
-    CmpItemKindClass = {fg = c.darkBlue},
-    CmpItemKindInterface = {fg = c.darkBlue},
-    CmpItemKindStruct = {fg = c.darkBlue},
-    CmpItemKindFolder = {fg = c.cyan},
-    CmpItemKindFile = {fg = c.cyan},
+    CmpItemKindClass = {fg = c.darkCyan},
+    CmpItemKindInterface = {fg = c.darkCyan},
+    CmpItemKindStruct = {fg = c.darkCyan},
+    CmpItemKindFolder = {fg = c.blue},
+    CmpItemKindFile = {fg = c.fg1},
 
     ---- neotest (external plugin) -----------------------------
     NeotestAdapterName = {fg = c.orange},
