@@ -58,12 +58,12 @@ return {
     Question = {fg = c.green},
 
     ---- :help :diff -------------------------------------------
-    DiffAdd = {bg = hsluv(130, 50, 20)}, -- green
-    DiffChange = {bg = hsluv(255, 50, 20)}, -- blue
-    DiffDelete = {bg = hsluv(12, 60, 15)}, -- red
-    DiffText = {bg = hsluv(255, 50, 30)},
-    DiffAdded = {bg = hsluv(130, 50, 20)},
-    DiffRemoved = {bg = hsluv(12, 60, 15)},
+    DiffAdd = {bg = c.diffGreen},
+    DiffChange = {bg = c.diffBlue},
+    DiffDelete = {bg = c.diffRed},
+    DiffText = {bg = c.diffBlue},
+    DiffAdded = {bg = c.diffGreen},
+    DiffRemoved = {bg = c.diffRed},
 
     ---- :help spell -------------------------------------------
     SpellBad = {sp = c.darkRed, style = undercurl},
