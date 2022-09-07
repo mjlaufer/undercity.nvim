@@ -1,4 +1,3 @@
-local hsluv = require('undercity.hsluv').to_hex
 local c = require('undercity.colors')
 
 local bold = 'bold'
@@ -76,8 +75,8 @@ return {
     Identifier = {fg = c.fg1}, -- (preferred) any variable name
     Function = {fg = c.yellow},
     Constant = {fg = c.blue},
-    String = {fg = c.cyan},
-    Character = {fg = c.cyan},
+    String = {fg = c.green},
+    Character = {fg = c.green},
     Number = {fg = c.magenta},
     Boolean = {fg = c.magenta},
     Float = {fg = c.magenta},
@@ -131,17 +130,17 @@ return {
     TSFuncMacro = {fg = c.yellow},
     -- TSInclude = {},
     -- TSKeyword = {},
-    TSKeywordFunction = {fg = c.green},
+    -- TSKeywordFunction = {},
     -- TSKeywordOperator = {},
-    TSKeywordReturn = {fg = c.green},
+    -- TSKeywordReturn = {},
     -- TSLabel = {},
     -- TSMethod = {},
     TSNamespace = {fg = c.fg1},
     -- TSNone = {},
     -- TSNumber = {},
     TSOperator = {fg = c.red},
-    TSParameter = {fg = c.fg1},
-    TSParameterReference = {fg = c.fg1},
+    TSParameter = {fg = c.cyan},
+    TSParameterReference = {fg = c.cyan},
     -- TSProperty = {},
     TSPunctDelimiter = {fg = c.darkRed},
     TSPunctBracket = {fg = c.darkYellow},
